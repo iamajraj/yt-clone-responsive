@@ -6,33 +6,33 @@ export default function VideosGrid() {
                 {Array(20)
                     .fill(0)
                     .map((_, i) => (
-                        <div
-                            className="flex-1 sm:max-w-[320px] min-w-[200px] sm:min-w-[300px] h-max cursor-pointer"
+                        <a
+                            className="flex-1 sm:max-w-[320px] min-w-[200px] sm:min-w-[300px] h-max cursor-pointer block"
                             key={i}
+                            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                         >
                             <div className="w-full h-[170px] bg-[#ffffff28]"></div>
                             <div className="flex mt-[10px] gap-[10px] pr-[10px]">
                                 <img
-                                    src="https://yt3.ggpht.com/5aHqci2f7aT3weYQT0-ckcJYTYPuqcTROJ9NUommqG-r4UEuN57njyPhSsyjCjUwG98nE54T=s176-c-k-c0x00ffffff-no-rj-mo"
+                                    src="https://i.imgflip.com/5v56sr.jpg?a466344"
                                     alt="logo"
-                                    className="w-[35px] h-[35px] rounded-full"
+                                    className="w-[35px] h-[35px] rounded-full object-cover"
                                 />
                                 <div className="">
                                     <h1 className="text-white text-[15px] font-semibold leading-[20px]">
-                                        Unbelievable Events Happened During
-                                        Qatar FIFA World Cup !!
+                                        It is what it is
                                     </h1>
                                     <div className="mt-[5px]">
                                         <p className="text-[#AAAAAA] text-[13px]">
-                                            FIFA
+                                            Not RR
                                         </p>
                                         <p className="text-[#AAAAAA] text-[13px]">
-                                            81K view ∙ 1 hours ago
+                                            99K view ∙ 59 minutes ago
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     ))}
             </div>
         </div>
